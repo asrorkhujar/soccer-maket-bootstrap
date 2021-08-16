@@ -10,15 +10,13 @@
 <body class="d-flex flex-column h-100 bg-info">
 
   <main>
-<nav class="navbar navbar-expand-md bg-white">
+<nav class="navbar navbar-expand-sm navbar-light bg-white">
   <div class="container-lg">
     <a class="navbar-brand" href="index.html">
     <img class="d-block" src="img/logo-ea.png" alt="logo EA sports" width="70" height="68">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sitenav-collapse" aria-controls="sitenav-collapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon">
-      <img class="d-block" src="img/hamburger-menu-icon.svg" alt="icon menu" width="30" height="20">
-    </span>
+    <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="sitenav-collapse">
@@ -43,23 +41,74 @@
 
     <div class="container-lg">
       <h1 class="sr-only">Soccer Club</h1>
-      <div class="py-4 my-4 bg-white rounded-lg">
-        <h2 class="display-4 mb-0 text-center">Today's match</h2>
+      <div class="py-4 my-4 rounded-lg">
+        <h2 class="display-4 mb-0 text-center text-white font-weight-bold">Today's match</h2>
       </div>
 
-      <div class="row">
-        <div class="col-4">
-
+      <div class="row align-items-center justify-content-center mb-5">
+        <div class="col-8 col-md-4">
+          <div class="card py-3 px-3">
+            <div class="card__img-wrapper">
+              <img src="img/liverpool.png" class="card-img-top img-fluid" alt="logo Liverpool" width="100" height="260"></div>
+            <div class="card-body">
+              <h3 class="card-title text-center">Liverpool</h3>
+              <dl class="d-flex flex-wrap justify-content-center">
+                <div class="d-flex flex-wrap border-right px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Wins:</dt>
+                  <dd class="mb-0 font-weight-normal">14</dd>
+                </div>
+                <div class="d-flex flex-wrap border-right px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Loses:</dt>
+                  <dd class="mb-0 font-weight-normal">3</dd>
+                </div>
+                <div class="d-flex flex-wrap px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Draws:</dt>
+                  <dd class="mb-0 font-weight-normal">6</dd>
+                </div>
+                <div class="d-flex flex-wrap px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Leaderboard position:</dt>
+                  <dd class="mb-0 font-weight-normal">4</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </div>
-        <div class="col-4">
-
+        <div class="col-5 my-4 col-md-3">
+          <div class="d-flex flex-column">
+            <button class="btn btn-info bg-primary mb-2 py-3 border font-weight-bold" type="button">Watch match promo</button>
+            <button class="btn btn-info bg-primary mb-2 py-3 border font-weight-bold" type="button">Buy tickets</button>
+            <button class="btn btn-info bg-primary mb-2 py-3 border font-weight-bold" type="button">Buy merch</button>
+            <a class="btn btn-info bg-warning border font-weight-bold py-3" href="#">More info</a>
+          </div>
         </div>
-        <div class="col-4">
-
+        <div class="col-8 col-md-4">
+          <div class="card py-3 px-3">
+            <div class="card__img-wrapper">
+              <img src="img/chelsea.png" class="card-img-top img-fluid" alt="logo Chelsea" width="80" height="260"></div>
+            <div class="card-body">
+              <h3 class="card-title text-center">Chelsea</h3>
+              <dl class="d-flex flex-wrap justify-content-center">
+                <div class="d-flex flex-wrap border-right px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Wins:</dt>
+                  <dd class="mb-0 font-weight-normal">17</dd>
+                </div>
+                <div class="d-flex flex-wrap border-right px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Loses:</dt>
+                  <dd class="mb-0 font-weight-normal">5</dd>
+                </div>
+                <div class="d-flex flex-wrap px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Draws:</dt>
+                  <dd class="mb-0 font-weight-normal">7</dd>
+                </div>
+                <div class="d-flex flex-wrap px-2">
+                  <dt class="details__name mr-2 text-secondary font-weight-normal">Leaderboard position:</dt>
+                  <dd class="mb-0 font-weight-normal">5</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
         </div>
       </div>
-
-
       </div>
     </main>
 
